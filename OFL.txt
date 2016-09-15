@@ -1,4 +1,4 @@
-Copyright (c) 2012 by vernon adams (vern@newtypography.co.uk),
+Copyright 2012 The Cutive Project Authors (vern@newtypography.co.uk),
 with Reserved Font Names "Cutive" and "Cutive Mono".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
