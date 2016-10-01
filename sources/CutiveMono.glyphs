@@ -1,5 +1,5 @@
 {
-.appVersion = "919";
+.appVersion = "924";
 copyright = "Copyright 2012 The Cutive Project Authors (vern@newtypography.co.uk)";
 customParameters = (
 {
@@ -18342,33 +18342,20 @@ unicode = 009D;
 },
 {
 glyphname = NULL;
-lastChange = "2016-09-15 10:27:34 +0000";
+lastChange = "2016-10-01 09:59:05 +0000";
 layers = (
 {
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
 width = 0;
 }
 );
+unicode = 0000;
 }
 );
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 instances = (
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "CutiveMono-Regular";
-},
-{
-name = postscriptFullName;
-value = "Cutive Mono Regular";
-},
-{
-name = compatibleFullName;
-value = "Cutive Mono Regular";
-}
-);
 instanceInterpolations = {
 "840BD324-B0A6-42B0-BD23-CB5E8C19394F" = 1;
 };
