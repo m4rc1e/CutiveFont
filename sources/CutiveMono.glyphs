@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"/Lcaron L/Ldot LRX\012Q"
+"/Lcaron L/Ldot LX"
 );
 classes = (
 {
@@ -2918,13 +2918,13 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2017-06-03 21:30:19 +0000";
+lastChange = "2017-06-08 12:56:01 +0000";
 layers = (
 {
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, 311, 1007}";
+transform = "{1, 0, 0, 1, 431, 1007}";
 },
 {
 name = L;
@@ -2958,12 +2958,13 @@ unicode = 013B;
 },
 {
 glyphname = Ldot;
+lastChange = "2017-06-08 12:56:29 +0000";
 layers = (
 {
 components = (
 {
 name = periodcentered;
-transform = "{1, 0, 0, 1, 122, 96}";
+transform = "{1, 0, 0, 1, 372, 156}";
 },
 {
 name = L;
@@ -10982,7 +10983,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-06-06 00:17:17 +0000";
+lastChange = "2017-06-08 12:58:58 +0000";
 layers = (
 {
 anchors = (
@@ -11000,7 +11001,7 @@ position = "{690, 774}";
 },
 {
 name = topright;
-position = "{1220, 774}";
+position = "{685, 1290}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -11104,16 +11105,16 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2017-06-04 01:00:28 +0000";
+lastChange = "2017-06-08 13:00:29 +0000";
 layers = (
 {
 components = (
 {
-name = comma;
-transform = "{1, 0, 0, 1, 512, 878}";
+name = t;
 },
 {
-name = t;
+name = comma;
+transform = "{1, 0, 0, 1, 122, 1091}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -11164,16 +11165,26 @@ unicode = 021B;
 },
 {
 glyphname = tdotaccent;
-lastChange = "2017-06-04 01:00:49 +0000";
+lastChange = "2017-06-08 12:55:33 +0000";
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{690, 774}";
+},
+{
+name = top;
+position = "{690, 1198}";
+}
+);
 components = (
 {
 name = t;
 },
 {
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 69, 387}";
+name = dotaccent;
+transform = "{1, 0, 0, 1, 6, -972}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -14122,9 +14133,15 @@ unicode = 003A;
 },
 {
 glyphname = comma;
-lastChange = "2017-06-03 13:38:49 +0000";
+lastChange = "2017-06-08 13:00:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = _topright;
+position = "{563, 199}";
+}
+);
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
 paths = (
 {
@@ -18944,7 +18961,7 @@ unicode = 0308;
 },
 {
 glyphname = dotaccentcomb;
-lastChange = "2017-06-04 00:07:05 +0000";
+lastChange = "2017-06-08 12:55:17 +0000";
 layers = (
 {
 anchors = (
