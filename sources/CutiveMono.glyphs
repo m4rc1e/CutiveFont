@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-n/eng
+"/lcaron l/ldot l"
 );
 classes = (
 {
@@ -8943,13 +8943,13 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
-lastChange = "2017-06-03 21:29:44 +0000";
+lastChange = "2017-06-08 17:28:38 +0000";
 layers = (
 {
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, 363, 1002}";
+transform = "{1, 0, 0, 1, 503, 1002}";
 },
 {
 name = l;
@@ -8983,12 +8983,13 @@ unicode = 013C;
 },
 {
 glyphname = ldot;
+lastChange = "2017-06-08 17:30:12 +0000";
 layers = (
 {
 components = (
 {
 name = periodcentered;
-transform = "{1, 0, 0, 1, 274, 96}";
+transform = "{1, 0, 0, 1, 539, 96}";
 },
 {
 name = l;
