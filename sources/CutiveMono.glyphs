@@ -2,7 +2,14 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"B/Lcaron/Ldot NRX\012Q"
+"/Lcaron L/Ldot LRX\012Q"
+);
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Acircumflex Adblgrave Adieresis Agrave Ainvertedbreve Amacron Aogonek Aring Atilde AE AEacute B Bdotaccent C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Ddotaccent Dz Dzcaron E Eacute Ebreve Ecaron Ecircumflex Edblgrave Edieresis Edotaccent Egrave Einvertedbreve Emacron Eogonek Etilde F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Igrave Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M Mdotaccent N NJ Nacute Ncaron Ncommaaccent Eng Nj Ntilde O Oacute Obreve Ocircumflex Odblgrave Odieresis Ograve Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Otilde OE P Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent U Uacute Ubreve Ucircumflex Udblgrave Udieresis Ugrave Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Q.ss02";
+name = Uppercase;
+}
 );
 copyright = "Copyright 2012 The Cutive Project Authors (vern@newtypography.co.uk)";
 customParameters = (
@@ -32,19 +39,24 @@ familyName = "Cutive Mono 1";
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012";
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
 name = Languagesystems;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature locl;\012feature frac;\012feature ordn;\012feature salt;\012feature ss01;\012feature sups;\012feature ss02;\012";
+code = "feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature ss01;\012feature ss02;\012feature ccmp;\012feature case;\012feature salt;\012";
 name = aalt;
 },
 {
 automatic = 1;
-code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb dblgravecomb breveinvertedcomb commaaccentcomb];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case dblgravecomb.case breveinvertedcomb.case commaaccentcomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012";
 name = locl;
 },
 {
@@ -64,17 +76,22 @@ name = ordn;
 },
 {
 automatic = 1;
+code = "sub dieresiscomb by dieresiscomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub gravecomb by gravecomb.case;\012sub acutecomb by acutecomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub ringcomb by ringcomb.case;\012sub tildecomb by tildecomb.case;\012sub macroncomb by macroncomb.case;\012sub dblgravecomb by dblgravecomb.case;\012sub breveinvertedcomb by breveinvertedcomb.case;\012sub commaaccentcomb by commaaccentcomb.case;\012";
+name = case;
+},
+{
+automatic = 1;
 code = "sub f f l by f_f_l;\012sub f f i by f_f_i;\012sub f i by fi;\012sub f f by f_f;\012sub f l by fl;\012";
 name = liga;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub F by F.ss01;\012sub L by L.ss01;\012sub R by R.ss01;\012sub T by T.ss01;\012sub Z by Z.ss01;\012sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
+code = "sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub E by E.ss01;\012sub F by F.ss01;\012sub L by L.ss01;\012sub R by R.ss01;\012sub T by T.ss01;\012sub Z by Z.ss01;\012sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
+code = "sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
 name = ss01;
 },
 {
@@ -3223,7 +3240,7 @@ unicode = 1E40;
 },
 {
 glyphname = N;
-lastChange = "2017-06-03 22:14:17 +0000";
+lastChange = "2017-06-08 02:51:38 +0000";
 layers = (
 {
 anchors = (
@@ -3252,8 +3269,8 @@ nodes = (
 "389 1171 OFFCURVE",
 "398 1163 OFFCURVE",
 "407 1147 CURVE SMOOTH",
-"934 181 LINE",
-"933 1085 LINE",
+"939 176 LINE",
+"936 1085 LINE",
 "784 1085 LINE SMOOTH",
 "751 1085 OFFCURVE",
 "735 1106 OFFCURVE",
