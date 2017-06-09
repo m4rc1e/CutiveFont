@@ -1,7 +1,8 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
+"\U00E0\U00E1a\U00E2\U00E3\U00E4\U00E5"
 );
 classes = (
 {
@@ -34,7 +35,7 @@ date = "2012-09-19 19:30:31 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.newtypography.co.uk";
 disablesNiceNames = 1;
-familyName = "Cutive Mono 1";
+familyName = "Cutive Mono 2";
 featurePrefixes = (
 {
 automatic = 1;
@@ -6151,16 +6152,16 @@ unicode = 0061;
 },
 {
 glyphname = aacute;
-lastChange = "2017-06-08 13:08:54 +0000";
+lastChange = "2017-06-09 22:17:28 +0000";
 layers = (
 {
 components = (
 {
-alignment = 1;
-name = acute;
+name = a;
 },
 {
-name = a;
+name = acutecomb;
+transform = "{1, 0, 0, 1, -40, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -6191,16 +6192,16 @@ unicode = 0103;
 },
 {
 glyphname = acircumflex;
-lastChange = "2017-06-08 13:07:04 +0000";
+lastChange = "2017-06-09 22:17:19 +0000";
 layers = (
 {
 components = (
 {
-alignment = 1;
-name = circumflex;
+name = a;
 },
 {
-name = a;
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -40, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -6211,7 +6212,7 @@ unicode = 00E2;
 },
 {
 glyphname = adblgrave;
-lastChange = "2017-06-08 13:08:34 +0000";
+lastChange = "2017-06-09 14:40:57 +0000";
 layers = (
 {
 components = (
@@ -6221,10 +6222,11 @@ name = dblgravecomb;
 },
 {
 name = a;
+transform = "{1, 0, 0, 1, 1240, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
-width = 1240;
+width = 2480;
 }
 );
 unicode = 0201;
@@ -6251,16 +6253,16 @@ unicode = 00E4;
 },
 {
 glyphname = agrave;
-lastChange = "2017-06-08 13:08:29 +0000";
+lastChange = "2017-06-09 22:17:57 +0000";
 layers = (
 {
 components = (
 {
-alignment = 1;
-name = gravecomb;
+name = a;
 },
 {
-name = a;
+name = gravecomb;
+transform = "{1, 0, 0, 1, -40, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -6291,7 +6293,7 @@ unicode = 0203;
 },
 {
 glyphname = amacron;
-lastChange = "2017-06-08 13:07:56 +0000";
+lastChange = "2017-06-09 15:16:38 +0000";
 layers = (
 {
 components = (
@@ -6301,10 +6303,11 @@ name = macron;
 },
 {
 name = a;
+transform = "{1, 0, 0, 1, 1240, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
-width = 1240;
+width = 2480;
 }
 );
 unicode = 0101;
@@ -6337,16 +6340,16 @@ unicode = 0105;
 },
 {
 glyphname = aring;
-lastChange = "2017-06-08 13:07:49 +0000";
+lastChange = "2017-06-09 22:18:10 +0000";
 layers = (
 {
 components = (
 {
-alignment = 1;
-name = ring;
+name = a;
 },
 {
-name = a;
+name = ringcomb;
+transform = "{1, 0, 0, 1, -46, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
