@@ -1,8 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"a\U00E1/abreve \U00E2/adblgrave \U00E4\U00E0/ainvertedbreve/amacron/aogonek \U00E5\U00E3"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO"
 );
 classes = (
 {
@@ -6409,7 +6408,7 @@ unicode = 01FD;
 },
 {
 glyphname = b;
-lastChange = "2017-06-04 00:05:21 +0000";
+lastChange = "2017-06-10 02:29:29 +0000";
 layers = (
 {
 anchors = (
@@ -6419,7 +6418,7 @@ position = "{620, 0}";
 },
 {
 name = top;
-position = "{620, 1070}";
+position = "{680, 970}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -6492,7 +6491,7 @@ unicode = 0062;
 },
 {
 glyphname = bdotaccent;
-lastChange = "2017-06-04 00:05:21 +0000";
+lastChange = "2017-06-10 02:29:29 +0000";
 layers = (
 {
 components = (
@@ -6501,7 +6500,7 @@ name = b;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, -1, 683}";
+transform = "{1, 0, 0, 1, 59, 583}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -6619,16 +6618,16 @@ unicode = 010D;
 },
 {
 glyphname = ccedilla;
-lastChange = "2017-06-03 21:14:32 +0000";
+lastChange = "2017-06-10 02:29:15 +0000";
 layers = (
 {
 components = (
 {
-name = cedilla;
-transform = "{1, 0, 0, 1, 30, -4}";
+name = c;
 },
 {
-name = c;
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 464, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -6679,7 +6678,7 @@ unicode = 010B;
 },
 {
 glyphname = d;
-lastChange = "2017-06-08 16:47:45 +0000";
+lastChange = "2017-06-10 02:28:54 +0000";
 layers = (
 {
 anchors = (
@@ -6693,7 +6692,7 @@ position = "{620, 387}";
 },
 {
 name = top;
-position = "{620, 1070}";
+position = "{570, 970}";
 },
 {
 name = topright;
@@ -6924,7 +6923,7 @@ unicode = 0111;
 },
 {
 glyphname = ddotaccent;
-lastChange = "2017-06-04 00:05:09 +0000";
+lastChange = "2017-06-10 02:28:54 +0000";
 layers = (
 {
 components = (
@@ -6933,7 +6932,7 @@ name = d;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, -1, 683}";
+transform = "{1, 0, 0, 1, -51, 583}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
