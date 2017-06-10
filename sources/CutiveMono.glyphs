@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"E\U00C9/Ebreve/Ecaron \U00CA/Edblgrave \U00CB/Edotaccent \U00C8/Einvertedbreve/Emacron/Eogonek/Etilde"
+L/commaaccentcomb/Lcommaaccent/Lslash
 );
 classes = (
 {
@@ -1604,7 +1604,7 @@ unicode = 0206;
 },
 {
 glyphname = Emacron;
-lastChange = "2017-06-03 22:47:30 +0000";
+lastChange = "2017-06-10 01:14:30 +0000";
 layers = (
 {
 components = (
@@ -1613,7 +1613,7 @@ name = E;
 },
 {
 name = macroncomb.case;
-transform = "{1, 0, 0, 1, 40, 397}";
+transform = "{1, 0, 0, 1, 30, 397}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -2738,13 +2738,13 @@ unicode = 0136;
 },
 {
 glyphname = L;
-lastChange = "2017-06-08 02:45:46 +0000";
+lastChange = "2017-06-10 01:15:32 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{620, 0}";
+position = "{708, -175}";
 },
 {
 name = center;
@@ -2955,16 +2955,16 @@ unicode = 013D;
 },
 {
 glyphname = Lcommaaccent;
-lastChange = "2017-06-03 22:35:45 +0000";
+lastChange = "2017-06-10 01:15:32 +0000";
 layers = (
 {
 components = (
 {
-name = commaaccentcomb;
-transform = "{1, 0, 0, 1, -52, -331}";
+name = L;
 },
 {
-name = L;
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 77, -345}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -3101,7 +3101,7 @@ unicode = 01C8;
 },
 {
 glyphname = Lslash;
-lastChange = "2016-08-10 13:30:31 +0000";
+lastChange = "2017-06-10 01:11:55 +0000";
 layers = (
 {
 components = (
@@ -3114,26 +3114,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"777 768 CURVE SMOOTH",
-"802 768 OFFCURVE",
-"818 750 OFFCURVE",
-"818 722 CURVE SMOOTH",
-"818 703 OFFCURVE",
-"806 692 OFFCURVE",
-"780 685 CURVE SMOOTH",
-"245 551 LINE SMOOTH",
-"237 549 OFFCURVE",
-"229 548 OFFCURVE",
-"223 548 CURVE SMOOTH",
-"198 548 OFFCURVE",
-"183 566 OFFCURVE",
-"183 594 CURVE SMOOTH",
-"183 613 OFFCURVE",
-"196 627 OFFCURVE",
-"223 634 CURVE SMOOTH",
-"758 765 LINE SMOOTH",
-"765 767 OFFCURVE",
-"771 768 OFFCURVE"
+"757 748 CURVE SMOOTH",
+"782 748 OFFCURVE",
+"798 730 OFFCURVE",
+"798 702 CURVE SMOOTH",
+"798 683 OFFCURVE",
+"786 676 OFFCURVE",
+"760 665 CURVE SMOOTH",
+"215 441 LINE SMOOTH",
+"207 438 OFFCURVE",
+"199 438 OFFCURVE",
+"193 438 CURVE SMOOTH",
+"168 438 OFFCURVE",
+"153 456 OFFCURVE",
+"153 484 CURVE SMOOTH",
+"153 503 OFFCURVE",
+"166 513 OFFCURVE",
+"193 524 CURVE SMOOTH",
+"738 745 LINE SMOOTH",
+"745 748 OFFCURVE",
+"751 748 OFFCURVE"
 );
 }
 );
@@ -3258,13 +3258,13 @@ unicode = 1E40;
 },
 {
 glyphname = N;
-lastChange = "2017-06-08 02:51:38 +0000";
+lastChange = "2017-06-10 01:18:12 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{620, 0}";
+position = "{680, -140}";
 },
 {
 name = top;
@@ -3473,16 +3473,16 @@ unicode = 0147;
 },
 {
 glyphname = Ncommaaccent;
-lastChange = "2017-06-03 22:35:45 +0000";
+lastChange = "2017-06-10 01:18:12 +0000";
 layers = (
 {
 components = (
 {
-name = commaaccentcomb;
-transform = "{1, 0, 0, 1, -18, -347}";
+name = N;
 },
 {
-name = N;
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 49, -310}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -19095,21 +19095,17 @@ unicode = 0312;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2017-06-06 00:39:10 +0000";
+lastChange = "2017-06-10 01:14:17 +0000";
 layers = (
 {
 anchors = (
 {
-name = _apo;
-position = "{633, -203}";
-},
-{
 name = _bottom;
-position = "{621, 0}";
+position = "{631, 170}";
 },
 {
 name = bottom;
-position = "{621, -210}";
+position = "{621, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -19117,6 +19113,8 @@ paths = (
 {
 closed = 1;
 nodes = (
+"534 147 OFFCURVE",
+"583 168 OFFCURVE",
 "630 168 CURVE SMOOTH",
 "690 168 OFFCURVE",
 "732 139 OFFCURVE",
@@ -19138,9 +19136,7 @@ nodes = (
 "644 -8 CURVE",
 "585 -8 OFFCURVE",
 "534 18 OFFCURVE",
-"534 83 CURVE SMOOTH",
-"534 147 OFFCURVE",
-"583 168 OFFCURVE"
+"534 83 CURVE SMOOTH"
 );
 }
 );
