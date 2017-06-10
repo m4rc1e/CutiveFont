@@ -863,7 +863,7 @@ unicode = 010A;
 },
 {
 glyphname = D;
-lastChange = "2017-06-03 22:12:45 +0000";
+lastChange = "2017-06-10 00:53:25 +0000";
 layers = (
 {
 anchors = (
@@ -877,7 +877,7 @@ position = "{620, 586}";
 },
 {
 name = top;
-position = "{620, 1171}";
+position = "{580, 1151}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -1165,7 +1165,7 @@ unicode = 00D0;
 },
 {
 glyphname = Dcaron;
-lastChange = "2017-06-03 22:45:03 +0000";
+lastChange = "2017-06-10 00:53:25 +0000";
 layers = (
 {
 components = (
@@ -1174,7 +1174,7 @@ name = D;
 },
 {
 name = caroncomb.case;
-transform = "{1, 0, 0, 1, 0, 397}";
+transform = "{1, 0, 0, 1, -40, 377}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -1258,7 +1258,7 @@ unicode = 0110;
 },
 {
 glyphname = Ddotaccent;
-lastChange = "2017-06-03 22:45:15 +0000";
+lastChange = "2017-06-10 00:53:25 +0000";
 layers = (
 {
 components = (
@@ -1267,7 +1267,7 @@ name = D;
 },
 {
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, -1, 784}";
+transform = "{1, 0, 0, 1, -41, 764}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
