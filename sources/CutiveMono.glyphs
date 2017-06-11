@@ -2,7 +2,8 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-fil/f_f/f_f_i/f_f_l/fi/fl
+fil/f_f/f_f_i/f_f_l/fi/fl,
+sSCGQacfry2
 );
 classes = (
 {
@@ -8500,6 +8501,25 @@ width = 1240;
 }
 );
 unicode = 00EF;
+},
+{
+glyphname = idotaccent;
+lastChange = "2017-06-11 14:10:59 +0000";
+layers = (
+{
+components = (
+{
+name = idotless;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 49, 387}";
+}
+);
+layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
+width = 1240;
+}
+);
 },
 {
 glyphname = idotbelow;
