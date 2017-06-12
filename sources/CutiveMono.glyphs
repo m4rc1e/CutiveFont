@@ -8,7 +8,7 @@ sSCGQacfry2
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Acircumflexdotbelow Adblgrave Adieresis Adotbelow Agrave Ainvertedbreve Amacron Aogonek Aring Atilde AE AEacute B Bdotaccent C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Ddotaccent Dz Dzcaron E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edblgrave Edieresis Edotaccent Edotbelow Egrave Einvertedbreve Emacron Eogonek Etilde F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M Mdotaccent N NJ Nacute Ncaron Ncommaaccent Eng Nj Ntilde O Oacute Obreve Ocircumflex Ocircumflexdotbelow Odblgrave Odieresis Odotbelow Ograve Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Otilde OE P Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent G.ss01";
+code = "A Aacute Abreve Acircumflex Acircumflexdotbelow Adblgrave Adieresis Adotbelow Agrave Ainvertedbreve Amacron Aogonek Aring Atilde AE AEacute B Bdotaccent C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Ddotaccent Dz Dzcaron E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edblgrave Edieresis Edotaccent Edotbelow Egrave Einvertedbreve Emacron Eogonek Etilde F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M Mdotaccent N NJ Nacute Ncaron Ncommaaccent Eng Nj Ntilde O Oacute Obreve Ocircumflex Ocircumflexdotbelow Odblgrave Odieresis Odotbelow Ograve Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Otilde OE P Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent C.ss01 G.ss01 Q.ss01 S.ss01";
 name = Uppercase;
 }
 );
@@ -47,7 +47,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature case;\012feature salt;\012feature ss01;\012feature pnum;\012feature tnum;\012";
+code = "feature ccmp;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature case;\012feature salt;\012feature ss01;\012";
 name = aalt;
 },
 {
@@ -97,7 +97,7 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub G by G.ss01;\012sub three by three.ss01;\012sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
+code = "sub C by C.ss01;\012sub G by G.ss01;\012sub Q by Q.ss01;\012sub S by S.ss01;\012sub a by a.ss01;\012sub c by c.ss01;\012sub f by f.ss01;\012sub r by r.ss01;\012sub s by s.ss01;\012sub y by y.ss01;\012sub three by three.ss01;\012sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
 name = salt;
 },
 {
@@ -15890,73 +15890,6 @@ width = 1240;
 }
 );
 unicode = 005F;
-},
-{
-glyphname = comma.001;
-lastChange = "2017-06-10 15:46:21 +0000";
-layers = (
-{
-anchors = (
-{
-name = _topright;
-position = "{563, 199}";
-}
-);
-layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
-paths = (
-{
-closed = 1;
-nodes = (
-"616 180 CURVE SMOOTH",
-"676 180 OFFCURVE",
-"728 139 OFFCURVE",
-"728 59 CURVE SMOOTH",
-"728 -57 OFFCURVE",
-"625 -167 OFFCURVE",
-"543 -208 CURVE SMOOTH",
-"540 -210 OFFCURVE",
-"536 -210 OFFCURVE",
-"533 -210 CURVE SMOOTH",
-"519 -210 OFFCURVE",
-"505 -197 OFFCURVE",
-"505 -183 CURVE SMOOTH",
-"505 -176 OFFCURVE",
-"509 -168 OFFCURVE",
-"517 -162 CURVE SMOOTH",
-"560 -131 OFFCURVE",
-"626 -70 OFFCURVE",
-"626 -8 CURVE",
-"567 -8 OFFCURVE",
-"518 20 OFFCURVE",
-"518 85 CURVE SMOOTH",
-"518 149 OFFCURVE",
-"569 180 OFFCURVE"
-);
-}
-);
-width = 1240;
-}
-);
-},
-{
-glyphname = semicolon.001;
-lastChange = "2017-06-10 15:46:21 +0000";
-layers = (
-{
-components = (
-{
-name = comma;
-transform = "{1, 0, 0, 1, -5, 0}";
-},
-{
-name = period;
-transform = "{1, 0, 0, 1, -11, 616}";
-}
-);
-layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
-width = 1240;
-}
-);
 },
 {
 glyphname = braceleft;
