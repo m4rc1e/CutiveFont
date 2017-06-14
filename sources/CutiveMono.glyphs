@@ -1,10 +1,10 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
 /circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_tildecomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_tildecomb,
 /Abrevetilde/brevecomb_tildecomb/abrevetilde,
-/circumflexcomb_tildecomb/Ocircumflextilde/ocircumflextilde
+/Ocircumflextilde/ocircumflextilde
 );
 classes = (
 {
@@ -278,7 +278,7 @@ unicode = 0102;
 },
 {
 glyphname = Abrevetilde;
-lastChange = "2017-06-13 23:59:41 +0000";
+lastChange = "2017-06-13 23:43:02 +0000";
 layers = (
 {
 components = (
@@ -286,8 +286,12 @@ components = (
 name = A;
 },
 {
-name = brevecomb_tildecomb;
+name = brevecomb.case;
 transform = "{1, 0, 0, 1, 10, 397}";
+},
+{
+name = tildecomb.case;
+transform = "{1, 0, 0, 1, 10, 771}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -4003,7 +4007,7 @@ unicode = 1ED8;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2017-06-14 01:03:59 +0000";
+lastChange = "2017-06-14 01:03:26 +0000";
 layers = (
 {
 components = (
@@ -4011,8 +4015,12 @@ components = (
 name = O;
 },
 {
-name = circumflexcomb_tildecomb;
+name = circumflexcomb.case;
 transform = "{1, 0, 0, 1, 0, 397}";
+},
+{
+name = tildecomb.case;
+transform = "{1, 0, 0, 1, 0, 943}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
