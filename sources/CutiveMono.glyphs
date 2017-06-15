@@ -11679,7 +11679,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-06-08 14:10:24 +0000";
+lastChange = "2017-06-15 01:54:04 +0000";
 layers = (
 {
 anchors = (
@@ -11801,7 +11801,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2017-06-08 13:00:29 +0000";
+lastChange = "2017-06-15 01:54:18 +0000";
 layers = (
 {
 components = (
@@ -11810,7 +11810,7 @@ name = t;
 },
 {
 name = comma;
-transform = "{1, 0, 0, 1, 122, 1091}";
+transform = "{1, 0, 0, 1, 172, 1181}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -15353,13 +15353,13 @@ unicode = 003A;
 },
 {
 glyphname = comma;
-lastChange = "2017-06-10 16:11:37 +0000";
+lastChange = "2017-06-15 01:54:18 +0000";
 layers = (
 {
 anchors = (
 {
 name = _topright;
-position = "{563, 199}";
+position = "{513, 109}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
