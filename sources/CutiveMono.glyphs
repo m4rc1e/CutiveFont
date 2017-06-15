@@ -1,8 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"/kip/lira/liraTurkish/manat \U00A3"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO"
 );
 classes = (
 {
@@ -35,7 +34,7 @@ date = "2012-09-19 19:30:31 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.newtypography.co.uk";
 disablesNiceNames = 1;
-familyName = "Cutive Mono 2.5";
+familyName = "Cutive Mono 3";
 featurePrefixes = (
 {
 automatic = 1;
@@ -24570,7 +24569,7 @@ width = 1240;
 },
 {
 glyphname = circumflexcomb_gravecomb.case;
-lastChange = "2017-06-15 20:09:48 +0000";
+lastChange = "2017-06-15 23:02:23 +0000";
 layers = (
 {
 anchors = (
@@ -24587,7 +24586,7 @@ components = (
 {
 alignment = -1;
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 0, -130}";
+transform = "{1, 0, 0, 1, 0, -80}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -24601,7 +24600,7 @@ nodes = (
 "960 1080 OFFCURVE",
 "951 1084 OFFCURVE",
 "947 1087 CURVE SMOOTH",
-"865 1141 OFFCURVE",
+"868 1146 OFFCURVE",
 "818 1171 OFFCURVE",
 "746 1230 CURVE SMOOTH",
 "735 1239 OFFCURVE",
@@ -24628,7 +24627,7 @@ width = 1240;
 },
 {
 glyphname = circumflexcomb_hookabovecomb.case;
-lastChange = "2017-06-15 21:04:03 +0000";
+lastChange = "2017-06-15 23:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -24644,12 +24643,12 @@ position = "{744, 1503}";
 components = (
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 130, -110}";
+transform = "{1, 0, 0, 1, 130, -60}";
 },
 {
 alignment = -1;
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 403, 130}";
+transform = "{1, 0, 0, 1, 403, 180}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
