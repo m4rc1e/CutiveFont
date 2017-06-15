@@ -2,8 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-/circumflex/circumflexcomb/circumflexcomb_tildecomb/circumflexcomb_tildecomb.case/Acircumflextilde,
-"/Abreve/Abrevehookabove \U00C2/Acircumflexhookabove"
+/circumflex/circumflexcomb/circumflexcomb_tildecomb/circumflexcomb_tildecomb.case/Acircumflextilde
 );
 classes = (
 {
@@ -1863,6 +1862,26 @@ width = 1240;
 }
 );
 unicode = 1EC0;
+},
+{
+glyphname = Ecircumflexhookabove;
+lastChange = "2017-06-15 21:05:48 +0000";
+layers = (
+{
+components = (
+{
+name = E;
+},
+{
+name = circumflexcomb_hookabovecomb.case;
+transform = "{1, 0, 0, 1, -94, 397}";
+}
+);
+layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
+width = 1240;
+}
+);
+unicode = 1EC2;
 },
 {
 glyphname = Ecircumflextilde;
@@ -4366,6 +4385,26 @@ width = 1240;
 }
 );
 unicode = 1ED2;
+},
+{
+glyphname = Ocircumflexhookabove;
+lastChange = "2017-06-15 21:05:48 +0000";
+layers = (
+{
+components = (
+{
+name = O;
+},
+{
+name = circumflexcomb_hookabovecomb.case;
+transform = "{1, 0, 0, 1, -124, 397}";
+}
+);
+layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
+width = 1240;
+}
+);
+unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
@@ -8763,6 +8802,26 @@ width = 1240;
 unicode = 1EC1;
 },
 {
+glyphname = ecircumflexhookabove;
+lastChange = "2017-06-15 21:05:48 +0000";
+layers = (
+{
+components = (
+{
+name = e;
+},
+{
+name = circumflexcomb_hookabovecomb;
+transform = "{1, 0, 0, 1, -124, 0}";
+}
+);
+layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
+width = 1240;
+}
+);
+unicode = 1EC3;
+},
+{
 glyphname = ecircumflextilde;
 layers = (
 {
@@ -11344,6 +11403,26 @@ width = 1240;
 }
 );
 unicode = 1ED3;
+},
+{
+glyphname = ocircumflexhookabove;
+lastChange = "2017-06-15 21:05:48 +0000";
+layers = (
+{
+components = (
+{
+name = o;
+},
+{
+name = circumflexcomb_hookabovecomb;
+transform = "{1, 0, 0, 1, -124, 0}";
+}
+);
+layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
+width = 1240;
+}
+);
+unicode = 1ED5;
 },
 {
 glyphname = ocircumflextilde;
