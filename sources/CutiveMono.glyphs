@@ -4682,7 +4682,7 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2017-06-10 01:38:47 +0000";
+lastChange = "2017-06-15 02:42:27 +0000";
 layers = (
 {
 anchors = (
@@ -4712,7 +4712,7 @@ nodes = (
 "924 0 OFFCURVE",
 "906 27 OFFCURVE",
 "895 48 CURVE SMOOTH",
-"639 536 LINE",
+"635 536 LINE",
 "726 558 LINE"
 );
 },
