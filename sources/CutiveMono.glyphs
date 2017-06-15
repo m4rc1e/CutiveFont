@@ -8205,7 +8205,7 @@ unicode = 1EBD;
 },
 {
 glyphname = f;
-lastChange = "2017-06-08 14:16:26 +0000";
+lastChange = "2017-06-15 03:03:46 +0000";
 layers = (
 {
 anchors = (
@@ -8263,7 +8263,7 @@ nodes = (
 "512 802 LINE SMOOTH",
 "512 1069 OFFCURVE",
 "685 1191 OFFCURVE",
-"912 1191 CURVE SMOOTH",
+"902 1191 CURVE SMOOTH",
 "975 1191 OFFCURVE",
 "1020 1168 OFFCURVE",
 "1063 1130 CURVE SMOOTH",
