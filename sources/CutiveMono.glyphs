@@ -2664,7 +2664,7 @@ unicode = 0128;
 },
 {
 glyphname = J;
-lastChange = "2017-06-03 22:14:11 +0000";
+lastChange = "2017-06-15 15:56:59 +0000";
 layers = (
 {
 anchors = (
@@ -2682,7 +2682,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"865 437 LINE SMOOTH",
+"865 387 LINE SMOOTH",
 "865 142 OFFCURVE",
 "752 -13 OFFCURVE",
 "500 -13 CURVE SMOOTH",
@@ -2700,7 +2700,7 @@ nodes = (
 "500 70 CURVE SMOOTH",
 "682 70 OFFCURVE",
 "769 194 OFFCURVE",
-"769 434 CURVE SMOOTH",
+"769 384 CURVE SMOOTH",
 "769 1085 LINE",
 "399 1085 LINE SMOOTH",
 "367 1085 OFFCURVE",
