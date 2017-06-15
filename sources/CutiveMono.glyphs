@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-0142356978
+/dotaccentcomb/commaturnedabovecomb/dotbelowcomb/commaaccentcomb/dotaccentcomb.case/commaaccentcomb.case/dotaccent
 );
 classes = (
 {
@@ -101,7 +101,7 @@ name = salt;
 },
 {
 automatic = 1;
-code = "sub s by s.ss01;\012sub three by three.ss01;\012sub dollar by dollar.ss01;\012sub ampersand by ampersand.ss01;\012";
+code = "sub s by s.ss01;\012sub three by three.ss01;\012";
 name = ss01;
 }
 );
@@ -20502,7 +20502,7 @@ unicode = 0311;
 },
 {
 glyphname = commaturnedabovecomb;
-lastChange = "2017-06-06 00:35:06 +0000";
+lastChange = "2017-06-15 18:02:43 +0000";
 layers = (
 {
 anchors = (
@@ -20517,8 +20517,8 @@ position = "{624, 1571}";
 );
 components = (
 {
-name = comma;
-transform = "{-1, 0, 0, -1, 1240, 1211}";
+name = commaaccentcomb;
+transform = "{-1, 0, 0, -1, 1250, 1202}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -20629,7 +20629,7 @@ unicode = 0324;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2017-06-10 01:14:17 +0000";
+lastChange = "2017-06-15 18:01:59 +0000";
 layers = (
 {
 anchors = (
@@ -20647,30 +20647,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"534 147 OFFCURVE",
-"583 168 OFFCURVE",
-"630 168 CURVE SMOOTH",
-"690 168 OFFCURVE",
-"732 139 OFFCURVE",
-"732 59 CURVE SMOOTH",
-"732 -57 OFFCURVE",
-"625 -161 OFFCURVE",
-"550 -206 CURVE SMOOTH",
-"545 -209 OFFCURVE",
-"537 -210 OFFCURVE",
-"532 -210 CURVE SMOOTH",
-"522 -210 OFFCURVE",
-"508 -197 OFFCURVE",
-"508 -183 CURVE SMOOTH",
-"508 -176 OFFCURVE",
-"512 -168 OFFCURVE",
-"520 -162 CURVE SMOOTH",
-"562 -130 OFFCURVE",
-"644 -70 OFFCURVE",
-"644 -8 CURVE",
-"585 -8 OFFCURVE",
-"534 18 OFFCURVE",
-"534 83 CURVE SMOOTH"
+"545 149 OFFCURVE",
+"590 168 OFFCURVE",
+"632 168 CURVE SMOOTH",
+"687 168 OFFCURVE",
+"725 142 OFFCURVE",
+"725 69 CURVE SMOOTH",
+"725 -36 OFFCURVE",
+"628 -130 OFFCURVE",
+"560 -171 CURVE SMOOTH",
+"555 -174 OFFCURVE",
+"548 -175 OFFCURVE",
+"544 -175 CURVE SMOOTH",
+"535 -175 OFFCURVE",
+"522 -163 OFFCURVE",
+"522 -150 CURVE SMOOTH",
+"522 -144 OFFCURVE",
+"525 -137 OFFCURVE",
+"533 -131 CURVE SMOOTH",
+"571 -102 OFFCURVE",
+"645 -48 OFFCURVE",
+"645 8 CURVE",
+"592 8 OFFCURVE",
+"545 32 OFFCURVE",
+"545 91 CURVE SMOOTH"
 );
 }
 );
@@ -21194,7 +21194,7 @@ width = 1240;
 },
 {
 glyphname = commaaccentcomb.case;
-lastChange = "2017-06-06 00:25:30 +0000";
+lastChange = "2017-06-15 18:02:08 +0000";
 layers = (
 {
 anchors = (
@@ -21207,38 +21207,12 @@ name = bottom;
 position = "{621, -210}";
 }
 );
-layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"630 168 CURVE SMOOTH",
-"690 168 OFFCURVE",
-"732 139 OFFCURVE",
-"732 59 CURVE SMOOTH",
-"732 -57 OFFCURVE",
-"625 -161 OFFCURVE",
-"550 -206 CURVE SMOOTH",
-"545 -209 OFFCURVE",
-"537 -210 OFFCURVE",
-"532 -210 CURVE SMOOTH",
-"522 -210 OFFCURVE",
-"508 -197 OFFCURVE",
-"508 -183 CURVE SMOOTH",
-"508 -176 OFFCURVE",
-"512 -168 OFFCURVE",
-"520 -162 CURVE SMOOTH",
-"562 -130 OFFCURVE",
-"644 -70 OFFCURVE",
-"644 -8 CURVE",
-"585 -8 OFFCURVE",
-"534 18 OFFCURVE",
-"534 83 CURVE SMOOTH",
-"534 147 OFFCURVE",
-"583 168 OFFCURVE"
-);
+name = commaaccentcomb;
 }
 );
+layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
 width = 1240;
 }
 );
@@ -21542,7 +21516,7 @@ unicode = 00A8;
 },
 {
 glyphname = dotaccent;
-lastChange = "2016-08-10 13:30:31 +0000";
+lastChange = "2017-06-15 18:01:39 +0000";
 layers = (
 {
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -21550,18 +21524,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"644 811 CURVE SMOOTH",
-"690 811 OFFCURVE",
-"726 774 OFFCURVE",
-"726 728 CURVE SMOOTH",
-"726 682 OFFCURVE",
-"690 646 OFFCURVE",
-"644 646 CURVE SMOOTH",
-"598 646 OFFCURVE",
-"561 682 OFFCURVE",
-"561 728 CURVE SMOOTH",
-"561 774 OFFCURVE",
-"598 811 OFFCURVE"
+"640 811 CURVE SMOOTH",
+"688 811 OFFCURVE",
+"726 772 OFFCURVE",
+"726 724 CURVE SMOOTH",
+"726 676 OFFCURVE",
+"688 638 OFFCURVE",
+"640 638 CURVE SMOOTH",
+"592 638 OFFCURVE",
+"553 676 OFFCURVE",
+"553 724 CURVE SMOOTH",
+"553 772 OFFCURVE",
+"592 811 OFFCURVE"
 );
 }
 );
