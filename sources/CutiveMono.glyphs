@@ -2,8 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"/gravecomb/acutecomb/gravecomb.case/acutecomb.case \U00B4`/brevecomb_acutecomb/brevecomb_gravecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb",
-"/acutecomb.case \U00C1/gravecomb.case \U00C0"
+"{}"
 );
 classes = (
 {
@@ -2870,7 +2869,7 @@ unicode = 0136;
 },
 {
 glyphname = L;
-lastChange = "2017-06-15 15:58:52 +0000";
+lastChange = "2017-06-15 19:06:36 +0000";
 layers = (
 {
 anchors = (
@@ -2884,7 +2883,7 @@ position = "{620, 586}";
 },
 {
 name = top;
-position = "{620, 1171}";
+position = "{440, 1171}";
 },
 {
 name = topright;
@@ -3048,15 +3047,16 @@ unicode = 01C7;
 },
 {
 glyphname = Lacute;
+lastChange = "2017-06-15 19:06:36 +0000";
 layers = (
 {
 components = (
 {
-name = acute;
-transform = "{1, 0, 0, 1, -89, 372}";
+name = L;
 },
 {
-name = L;
+name = acutecomb;
+transform = "{1, 0, 0, 1, -180, 397}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -8873,13 +8873,13 @@ unicode = 1ECB;
 },
 {
 glyphname = igrave;
-lastChange = "2017-05-31 19:05:13 +0000";
+lastChange = "2017-06-15 19:04:47 +0000";
 layers = (
 {
 components = (
 {
+alignment = 1;
 name = grave;
-transform = "{1, 0, 0, 1, 486, -40}";
 },
 {
 name = idotless;
@@ -9418,7 +9418,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2017-06-08 14:20:42 +0000";
+lastChange = "2017-06-15 19:05:34 +0000";
 layers = (
 {
 anchors = (
@@ -9432,7 +9432,7 @@ position = "{620, 387}";
 },
 {
 name = top;
-position = "{620, 1070}";
+position = "{620, 1120}";
 },
 {
 name = topright;
@@ -9487,7 +9487,7 @@ unicode = 006C;
 },
 {
 glyphname = lacute;
-lastChange = "2017-06-04 00:43:58 +0000";
+lastChange = "2017-06-15 19:05:34 +0000";
 layers = (
 {
 components = (
@@ -9496,7 +9496,7 @@ name = l;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 0, 296}";
+transform = "{1, 0, 0, 1, 0, 346}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -12016,12 +12016,13 @@ unicode = 1EE5;
 },
 {
 glyphname = ugrave;
+lastChange = "2017-06-15 19:05:08 +0000";
 layers = (
 {
 components = (
 {
+alignment = 1;
 name = grave;
-transform = "{1, 0, 0, 1, 424, 1}";
 },
 {
 name = u;
@@ -12746,12 +12747,13 @@ unicode = 1EF5;
 },
 {
 glyphname = ygrave;
+lastChange = "2017-06-15 19:05:15 +0000";
 layers = (
 {
 components = (
 {
+alignment = 1;
 name = grave;
-transform = "{1, 0, 0, 1, 414, 1}";
 },
 {
 name = y;
@@ -20139,7 +20141,7 @@ unicode = 0307;
 },
 {
 glyphname = gravecomb;
-lastChange = "2017-06-15 18:59:36 +0000";
+lastChange = "2017-06-15 19:04:02 +0000";
 layers = (
 {
 anchors = (
@@ -20155,6 +20157,7 @@ position = "{620, 1277}";
 components = (
 {
 name = grave;
+transform = "{1, 0, 0, 1, 0, -50}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -20165,7 +20168,7 @@ unicode = 0300;
 },
 {
 glyphname = acutecomb;
-lastChange = "2017-06-13 22:27:42 +0000";
+lastChange = "2017-06-15 19:03:56 +0000";
 layers = (
 {
 anchors = (
@@ -20181,6 +20184,7 @@ position = "{620, 1277}";
 components = (
 {
 name = acute;
+transform = "{1, 0, 0, 1, 0, -50}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -20838,7 +20842,7 @@ width = 1240;
 },
 {
 glyphname = gravecomb.case;
-lastChange = "2017-06-15 19:02:31 +0000";
+lastChange = "2017-06-15 19:06:08 +0000";
 layers = (
 {
 anchors = (
@@ -20854,7 +20858,7 @@ position = "{620, 1277}";
 components = (
 {
 name = grave;
-transform = "{1, 0, 0, 1, 2, -100}";
+transform = "{1, 0, 0, 1, 2, -90}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -20864,7 +20868,7 @@ width = 1240;
 },
 {
 glyphname = acutecomb.case;
-lastChange = "2017-06-15 19:02:02 +0000";
+lastChange = "2017-06-15 19:05:57 +0000";
 layers = (
 {
 anchors = (
@@ -20880,7 +20884,7 @@ position = "{620, 1277}";
 components = (
 {
 name = acute;
-transform = "{1, 0, 0, 1, 10, -100}";
+transform = "{1, 0, 0, 1, 10, -90}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
