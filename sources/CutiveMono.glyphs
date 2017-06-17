@@ -5401,7 +5401,7 @@ unicode = 0212;
 },
 {
 glyphname = S;
-lastChange = "2017-06-17 17:40:29 +0000";
+lastChange = "2017-06-17 17:41:08 +0000";
 layers = (
 {
 anchors = (
@@ -5460,7 +5460,7 @@ nodes = (
 "586 1187 CURVE SMOOTH",
 "374 1187 OFFCURVE",
 "217 1091 OFFCURVE",
-"217 911 CURVE SMOOTH",
+"217 916 CURVE SMOOTH",
 "217 693 OFFCURVE",
 "430 620 OFFCURVE",
 "606 564 CURVE SMOOTH",
