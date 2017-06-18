@@ -16681,12 +16681,13 @@ unicode = 0021;
 },
 {
 glyphname = exclamdown;
+lastChange = "2017-06-18 15:12:03 +0000";
 layers = (
 {
 components = (
 {
 name = exclam;
-transform = "{-1, 0, 0, -1, 1241, 865}";
+transform = "{-1, 0, 0, -1, 1241, 1169}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
