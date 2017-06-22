@@ -23961,7 +23961,7 @@ width = 1240;
 },
 {
 glyphname = macroncomb.case;
-lastChange = "2017-06-03 22:39:08 +0000";
+lastChange = "2017-06-22 17:36:05 +0000";
 layers = (
 {
 anchors = (
@@ -23977,6 +23977,7 @@ position = "{620, 1119}";
 components = (
 {
 name = macron;
+transform = "{1, 0, 0, 1, 0, 30}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
