@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"aaddhheessiioon\012hond hond\012nnHnn ooHoo\012nnOnn ooOoo\012nnOnn ooOoo \012nnann ooaoo\012nndnn oodoo\012nnhnn oohoo\012nnHnn ooHoo\012nninn ooioo\012nnenn ooeoo\012nnsnn oosoo\012HHOHH OOHOO"
+"aaddhheessiioo\012hond hond\012nnHnn ooHoo\012nnOnn ooOoo\012nnOnn ooOoo \012nnann ooaoo\012nndnn oodoo\012nnhnn oohoo\012nnHnn ooHoo\012nninn ooioo\012nnenn ooeoo\012nnsnn oosoo\012HHOHH OOHOO"
 );
 classes = (
 {
@@ -107,9 +107,6 @@ name = ss01;
 );
 fontMaster = (
 {
-alignmentZones = (
-"{0, 20}"
-);
 ascender = 1705;
 capHeight = 1171;
 customParameters = (
