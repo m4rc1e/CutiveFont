@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"aaddhheesiioon\012hond hond\012nnHnn ooHoo \012nnann ooaoo\012nndnn oodoo\012nnhnn oohoo\012nnHnn ooHoo\012nninn ooioo\012nnenn ooeoo"
+"aaddhheesiioon\012hond hond\012nnHnn ooHoo\012nnOnn ooOoo\012nnOnn ooOoo \012nnann ooaoo\012nndnn oodoo\012nnhnn oohoo\012nnHnn ooHoo\012nninn ooioo\012nnenn ooeoo"
 );
 classes = (
 {
@@ -4676,7 +4676,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2017-06-26 21:52:45 +0000";
+lastChange = "2017-06-29 02:14:13 +0000";
 layers = (
 {
 anchors = (
@@ -4745,8 +4745,70 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{620, 0}";
+},
+{
+name = center;
+position = "{620, 586}";
+},
+{
+name = ogonek;
+position = "{1116, 10}";
+},
+{
+name = top;
+position = "{620, 1171}";
+},
+{
+name = topleft;
+position = "{20, 1171}";
+},
+{
+name = topright;
+position = "{1220, 1171}";
+}
+);
 layerId = "F2E12B84-E402-48AA-89E7-06534AE23493";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"971 -17 OFFCURVE",
+"1135 301 OFFCURVE",
+"1135 582 CURVE SMOOTH",
+"1135 873 OFFCURVE",
+"971 1187 OFFCURVE",
+"620 1187 CURVE SMOOTH",
+"269 1187 OFFCURVE",
+"105 873 OFFCURVE",
+"105 582 CURVE SMOOTH",
+"105 301 OFFCURVE",
+"269 -17 OFFCURVE",
+"620 -17 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"411 198 OFFCURVE",
+"322 398 OFFCURVE",
+"322 583 CURVE SMOOTH",
+"322 778 OFFCURVE",
+"414 972 OFFCURVE",
+"620 972 CURVE SMOOTH",
+"826 972 OFFCURVE",
+"918 778 OFFCURVE",
+"918 583 CURVE SMOOTH",
+"918 398 OFFCURVE",
+"829 198 OFFCURVE",
+"620 198 CURVE SMOOTH"
+);
+}
+);
+width = 1240;
 }
 );
 unicode = 004F;
@@ -13259,7 +13321,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-06-29 01:29:59 +0000";
+lastChange = "2017-06-29 02:13:00 +0000";
 layers = (
 {
 anchors = (
@@ -13346,18 +13408,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"491 195 OFFCURVE",
+"491 185 OFFCURVE",
 "422 280 OFFCURVE",
 "422 397 CURVE SMOOTH",
 "422 513 OFFCURVE",
-"491 601 OFFCURVE",
-"619 601 CURVE SMOOTH",
-"749 601 OFFCURVE",
+"491 611 OFFCURVE",
+"619 611 CURVE SMOOTH",
+"749 611 OFFCURVE",
 "819 513 OFFCURVE",
 "819 397 CURVE SMOOTH",
 "819 280 OFFCURVE",
-"749 195 OFFCURVE",
-"619 195 CURVE SMOOTH"
+"749 185 OFFCURVE",
+"619 185 CURVE SMOOTH"
 );
 }
 );
