@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"a Bbc Dd Ee Ffg Hhijlmn Ooprstu \012nnann ooaoo\012nnbnn ooboo\012nncnn oocoo\012nndnn oodoo\012nnenn ooeoo\012nnfnn oofoo\012nngnn oogoo\012nnhnn oohoo\012nninn ooioo\012nnjnn oojoo\012nnlnn ooloo\012nnmnn oomoo\012nnpnn oopoo\012nnrnn ooroo\012nnsnn oosoo\012nntnn ootoo\012nnunn oouoo"
+"a Bbc Dd Ee Ffg Hh Iijlmn Ooprstu \012nnann ooaoo\012nnbnn ooboo\012nncnn oocoo\012nndnn oodoo\012nnenn ooeoo\012nnfnn oofoo\012nngnn oogoo\012nnhnn oohoo\012nninn ooioo\012nnjnn oojoo\012nnlnn ooloo\012nnmnn oomoo\012nnpnn oopoo\012nnrnn ooroo\012nnsnn oosoo\012nntnn ootoo\012nnunn oouoo"
 );
 classes = (
 {
@@ -3209,7 +3209,7 @@ unicode = 0124;
 },
 {
 glyphname = I;
-lastChange = "2017-06-29 15:05:28 +0000";
+lastChange = "2017-06-30 19:05:59 +0000";
 layers = (
 {
 anchors = (
@@ -3273,8 +3273,65 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{620, 0}";
+},
+{
+name = ogonek;
+position = "{1116, 10}";
+},
+{
+name = top;
+position = "{620, 1171}";
+},
+{
+name = topleft;
+position = "{20, 1171}";
+}
+);
 layerId = "F2E12B84-E402-48AA-89E7-06534AE23493";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"985 0 LINE SMOOTH",
+"1038 0 OFFCURVE",
+"1065 46 OFFCURVE",
+"1065 88 CURVE SMOOTH",
+"1065 129 OFFCURVE",
+"1039 176 OFFCURVE",
+"986 176 CURVE SMOOTH",
+"785 176 LINE",
+"785 995 LINE",
+"986 995 LINE SMOOTH",
+"1039 995 OFFCURVE",
+"1065 1041 OFFCURVE",
+"1065 1082 CURVE SMOOTH",
+"1065 1124 OFFCURVE",
+"1038 1171 OFFCURVE",
+"985 1171 CURVE SMOOTH",
+"320 1171 LINE SMOOTH",
+"267 1171 OFFCURVE",
+"239 1124 OFFCURVE",
+"239 1082 CURVE SMOOTH",
+"239 1041 OFFCURVE",
+"266 995 OFFCURVE",
+"319 995 CURVE SMOOTH",
+"539 995 LINE",
+"539 176 LINE",
+"319 176 LINE SMOOTH",
+"266 176 OFFCURVE",
+"239 129 OFFCURVE",
+"239 88 CURVE SMOOTH",
+"239 46 OFFCURVE",
+"267 0 OFFCURVE",
+"320 0 CURVE SMOOTH"
+);
+}
+);
+width = 1240;
 }
 );
 unicode = 0049;
