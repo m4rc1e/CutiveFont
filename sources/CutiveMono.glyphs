@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HHAHHOOAOO\012HHBHHOOBOO\012HHCHHOOCOO\012HHDHHOODOO\012HHEHHOOEOO\012HHFHHOOFOO\012HHGHHOOGOO\012HHJHHOOJOO\012HHLHHOOLOO\012HHKHHOOKOO\012HHMHHOOMOO\012HHNHHOONOO\012HHPHHOOPOO\012HHQHHOOQOO\012HHRHHOOROO\012HHSHHOOsSOO\012HHVHHOOVOO\012HHWHHOOWOO\012HHXHHOOXOO\012HHYHHOOYOO\012HHZHHOOZOO",
-"Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rrs Tt Uu Vv Ww Yy Zz\012nnknn ookoo \012nnann ooaoo\012nnbnn ooboo\012nncnn oocoo\012nndnn oodoo\012nnenn ooeoo\012nnfnn oofoo\012nngnn oogoo\012nnhnn oohoo\012nninn ooioo\012nnjnn oojoo\012nnlnn ooloo\012nnmnn oomoo\012nnpnn oopoo\012nnrnn ooroo\012nnsnn oosoo\012nntnn ootoo\012nnunn oouoo\012nnvnn oovoo\012nnwnn oowoo\012nnynn ooyoo\012nnznn oozoo\012HHWHH OOWOO"
+"Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Yy Zz\012nnknn ookoo \012nnann ooaoo\012nnbnn ooboo\012nncnn oocoo\012nndnn oodoo\012nnenn ooeoo\012nnfnn oofoo\012nngnn oogoo\012nnhnn oohoo\012nninn ooioo\012nnjnn oojoo\012nnlnn ooloo\012nnmnn oomoo\012nnpnn oopoo\012nnrnn ooroo\012nnsnn oosoo\012nntnn ootoo\012nnunn oouoo\012nnvnn oovoo\012nnwnn oowoo\012nnynn ooyoo\012nnznn oozoo\012HHWHH OOWOO"
 );
 classes = (
 {
@@ -35,7 +35,7 @@ date = "2012-09-19 19:30:31 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.newtypography.co.uk";
 disablesNiceNames = 1;
-familyName = "Cutive Mono 6.11";
+familyName = "Cutive Mono 6.12";
 featurePrefixes = (
 {
 automatic = 1;
@@ -7327,7 +7327,7 @@ unicode = 0212;
 },
 {
 glyphname = S;
-lastChange = "2017-06-26 22:00:10 +0000";
+lastChange = "2017-07-02 21:53:51 +0000";
 layers = (
 {
 anchors = (
@@ -7355,11 +7355,8 @@ nodes = (
 "871 -17 OFFCURVE",
 "1037 71 OFFCURVE",
 "1037 278 CURVE SMOOTH",
-"1037 496 OFFCURVE",
-"840 587 OFFCURVE",
-"679 636 CURVE SMOOTH",
-"491 693 OFFCURVE",
-"313 743 OFFCURVE",
+"1037 689 OFFCURVE",
+"313 600 OFFCURVE",
 "313 916 CURVE SMOOTH",
 "313 1038 OFFCURVE",
 "435 1101 OFFCURVE",
@@ -7387,11 +7384,8 @@ nodes = (
 "374 1187 OFFCURVE",
 "217 1091 OFFCURVE",
 "217 916 CURVE SMOOTH",
-"217 693 OFFCURVE",
-"430 620 OFFCURVE",
-"606 564 CURVE SMOOTH",
-"751 518 OFFCURVE",
-"941 445 OFFCURVE",
+"217 510 OFFCURVE",
+"941 631 OFFCURVE",
 "941 274 CURVE SMOOTH",
 "941 133 OFFCURVE",
 "808 69 OFFCURVE",
@@ -7415,8 +7409,83 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{620, 0}";
+},
+{
+name = top;
+position = "{620, 1171}";
+}
+);
 layerId = "F2E12B84-E402-48AA-89E7-06534AE23493";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"329 -17 OFFCURVE",
+"374 6 OFFCURVE",
+"367 51 CURVE SMOOTH",
+"349 152 LINE",
+"398 86 OFFCURVE",
+"506 -17 OFFCURVE",
+"679 -17 CURVE SMOOTH",
+"881 -17 OFFCURVE",
+"1047 71 OFFCURVE",
+"1047 278 CURVE SMOOTH",
+"1047 698 OFFCURVE",
+"453 657 OFFCURVE",
+"453 886 CURVE SMOOTH",
+"453 968 OFFCURVE",
+"535 1021 OFFCURVE",
+"646 1021 CURVE SMOOTH",
+"768 1021 OFFCURVE",
+"852 919 OFFCURVE",
+"878 868 CURVE SMOOTH",
+"895 835 OFFCURVE",
+"926 811 OFFCURVE",
+"963 811 CURVE SMOOTH",
+"1001 811 OFFCURVE",
+"1051 828 OFFCURVE",
+"1048 874 CURVE SMOOTH",
+"1032 1117 LINE SMOOTH",
+"1029 1169 OFFCURVE",
+"985 1187 OFFCURVE",
+"939 1187 CURVE SMOOTH",
+"892 1187 OFFCURVE",
+"842 1167 OFFCURVE",
+"848 1120 CURVE SMOOTH",
+"861 1038 LINE",
+"839 1073 OFFCURVE",
+"754 1187 OFFCURVE",
+"566 1187 CURVE SMOOTH",
+"364 1187 OFFCURVE",
+"207 1091 OFFCURVE",
+"207 916 CURVE SMOOTH",
+"207 492 OFFCURVE",
+"801 545 OFFCURVE",
+"801 294 CURVE SMOOTH",
+"801 203 OFFCURVE",
+"708 169 OFFCURVE",
+"632 169 CURVE SMOOTH",
+"497 169 OFFCURVE",
+"374 243 OFFCURVE",
+"343 329 CURVE SMOOTH",
+"331 362 OFFCURVE",
+"295 388 OFFCURVE",
+"257 388 CURVE SMOOTH",
+"219 388 OFFCURVE",
+"172 363 OFFCURVE",
+"173 321 CURVE SMOOTH",
+"180 51 LINE SMOOTH",
+"181 5 OFFCURVE",
+"226 -17 OFFCURVE",
+"277 -17 CURVE SMOOTH"
+);
+}
+);
+width = 1240;
 }
 );
 unicode = 0053;
