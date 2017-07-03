@@ -2,7 +2,6 @@
 .appVersion = "983";
 DisplayStrings = (
 "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\012nnknn ookoo \012nnann ooaoo\012nnbnn ooboo\012nncnn oocoo\012nndnn oodoo\012nnenn ooeoo\012nnfnn oofoo\012nngnn oogoo\012nnhnn oohoo\012nninn ooioo\012nnjnn oojoo\012nnlnn ooloo\012nnmnn oomoo\012nnpnn oopoo\012nnrnn ooroo\012nnsnn oosoo\012nntnn ootoo\012nnunn oouoo\012nnvnn oovoo\012nnwnn oowoo\012nnxnn ooxoo\012nnynn ooyoo\012nnznn oozoo\012HHXHH OOXOO",
-0123456789,
 "*/backslash \U00B7/bullet :/ellipsis !#.,?\"';//_()-/quoteright"
 );
 classes = (
@@ -23070,7 +23069,7 @@ unicode = 002C;
 },
 {
 glyphname = ellipsis;
-lastChange = "2017-06-26 22:00:10 +0000";
+lastChange = "2017-07-03 22:23:43 +0000";
 layers = (
 {
 components = (
@@ -23091,8 +23090,21 @@ layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
 width = 1240;
 },
 {
+components = (
+{
+name = period;
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, -420, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 420, 0}";
+}
+);
 layerId = "F2E12B84-E402-48AA-89E7-06534AE23493";
-width = 600;
+width = 1240;
 }
 );
 unicode = 2026;
