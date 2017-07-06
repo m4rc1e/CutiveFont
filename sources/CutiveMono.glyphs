@@ -1,7 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\012\012jfijlr\012uxz s w\012\012OCGS W I J ",
+"Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\012\012fji\012uxz s w\012\012OCGS W I J ",
 "*/backslash \U00B7/bullet :!#.,?\"';//_()-/quoteright"
 );
 classes = (
@@ -13370,7 +13370,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2017-07-06 02:19:27 +0000";
+lastChange = "2017-07-06 02:20:56 +0000";
 layers = (
 {
 anchors = (
@@ -13468,14 +13468,14 @@ nodes = (
 "745 810 CURVE SMOOTH",
 "307 759 LINE SMOOTH",
 "245 752 OFFCURVE",
-"235 709 OFFCURVE",
-"235 674 CURVE SMOOTH",
-"235 638 OFFCURVE",
-"266 591 OFFCURVE",
-"327 597 CURVE SMOOTH",
-"328 597 OFFCURVE",
-"451 611 OFFCURVE",
-"536 619 CURVE",
+"235 707 OFFCURVE",
+"235 672 CURVE SMOOTH",
+"235 636 OFFCURVE",
+"266 593 OFFCURVE",
+"317 593 CURVE SMOOTH",
+"328 593 OFFCURVE",
+"451 605 OFFCURVE",
+"536 613 CURVE",
 "536 176 LINE",
 "274 176 LINE SMOOTH",
 "226 176 OFFCURVE",
@@ -14003,7 +14003,7 @@ unicode = 0129;
 },
 {
 glyphname = j;
-lastChange = "2017-07-03 17:03:49 +0000";
+lastChange = "2017-07-06 02:21:02 +0000";
 layers = (
 {
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -14078,7 +14078,7 @@ nodes = (
 "229 625 OFFCURVE",
 "260 584 OFFCURVE",
 "318 588 CURVE SMOOTH",
-"649 613 LINE",
+"649 610 LINE",
 "649 209 LINE SMOOTH",
 "649 -16 OFFCURVE",
 "513 -134 OFFCURVE",
