@@ -1,7 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\012\012fji\012uxz s w\012\012OCGS W I J ",
+"Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\012\012\012uxz s w\012\012OCGS W I J ",
 "*/backslash \U00B7/bullet :!#.,?\"';//_()-/quoteright"
 );
 classes = (
