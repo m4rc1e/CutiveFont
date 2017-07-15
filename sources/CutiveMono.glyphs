@@ -3,7 +3,7 @@
 DisplayStrings = (
 "/integral \U00A9\U00AE/trademark a/dagger no/daggerdbl/numero",
 "A \U00C6 D /DZ  /Dz  I /IJ  /LJ  /Lj  /Eng  O /OE  \U00DE",
-"adhesion\012adhesion\012HO nonono\012nnann ooaoo\012nnenn ooeoo\012nninn ooioo\012nnhnn oohoo\012nndnn oodoo\012nnsnn oosoo"
+"adhesion One\012adhesion One\012HO nonono\012nnann ooaoo\012nnenn ooeoo\012nninn ooioo\012nnhnn oohoo\012nndnn oodoo\012nnsnn oosoo"
 );
 classes = (
 {
@@ -6802,7 +6802,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2017-07-13 18:39:58 +0000";
+lastChange = "2017-07-14 18:28:43 +0000";
 layers = (
 {
 anchors = (
@@ -6938,7 +6938,43 @@ width = 1240;
 },
 {
 layerId = "440824D2-40E3-4EBC-B94D-DAF81B1E7F5E";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"911 -17 OFFCURVE",
+"1119 261 OFFCURVE",
+"1169 582 CURVE SMOOTH",
+"1216 883 OFFCURVE",
+"1101 1187 OFFCURVE",
+"760 1187 CURVE SMOOTH",
+"399 1187 OFFCURVE",
+"193 913 OFFCURVE",
+"140 582 CURVE SMOOTH",
+"93 291 OFFCURVE",
+"209 -17 OFFCURVE",
+"550 -17 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"285 69 OFFCURVE",
+"199 336 OFFCURVE",
+"236 582 CURVE SMOOTH",
+"280 872 OFFCURVE",
+"479 1101 OFFCURVE",
+"745 1101 CURVE SMOOTH",
+"1021 1101 OFFCURVE",
+"1114 842 OFFCURVE",
+"1073 582 CURVE SMOOTH",
+"1030 306 OFFCURVE",
+"835 69 OFFCURVE",
+"565 69 CURVE SMOOTH"
+);
+}
+);
+width = 1240;
 }
 );
 unicode = 004F;
@@ -18451,7 +18487,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-07-13 19:05:36 +0000";
+lastChange = "2017-07-14 18:24:28 +0000";
 layers = (
 {
 anchors = (
@@ -18586,7 +18622,7 @@ nodes = (
 "823 -17 OFFCURVE",
 "1005 148 OFFCURVE",
 "1044 398 CURVE SMOOTH",
-"1084 654 OFFCURVE",
+"1080 631 OFFCURVE",
 "913 813 OFFCURVE",
 "660 813 CURVE SMOOTH",
 "417 813 OFFCURVE",
@@ -18600,17 +18636,17 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"379 69 OFFCURVE",
+"389 69 OFFCURVE",
 "261 211 OFFCURVE",
 "294 398 CURVE SMOOTH",
 "329 598 OFFCURVE",
-"469 727 OFFCURVE",
+"479 727 OFFCURVE",
 "660 727 CURVE SMOOTH",
 "861 727 OFFCURVE",
 "980 588 OFFCURVE",
 "946 398 CURVE SMOOTH",
 "911 201 OFFCURVE",
-"771 69 OFFCURVE",
+"761 69 OFFCURVE",
 "580 69 CURVE SMOOTH"
 );
 }
