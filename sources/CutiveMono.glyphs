@@ -4,7 +4,7 @@ DisplayStrings = (
 "/integral \U00A9\U00AE/trademark a/dagger no/daggerdbl/numero",
 "A \U00C6 D /DZ  /Dz  I /IJ  /LJ  /Lj  /Eng  O /OE  \U00DE",
 "adhesion One\012adhesion One\012HO nonono\012nnann ooaoo\012nnenn ooeoo\012nninn ooioo\012nnhnn oohoo\012nndnn oodoo\012nnsnn oosoo",
-"acfry\012ogsubdpq\012mtyZz"
+"acfry\012ogsubdpq\012my"
 );
 classes = (
 {
@@ -17568,7 +17568,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2017-07-15 18:33:10 +0000";
+lastChange = "2017-07-15 19:38:26 +0000";
 layers = (
 {
 anchors = (
@@ -17748,14 +17748,14 @@ nodes = (
 "761 697 OFFCURVE",
 "683 813 OFFCURVE",
 "540 813 CURVE SMOOTH",
-"382 813 OFFCURVE",
+"402 813 OFFCURVE",
 "363 696 OFFCURVE",
 "364 686 CURVE",
 "369 607 LINE",
-"399 642 OFFCURVE",
+"389 642 OFFCURVE",
 "419 661 OFFCURVE",
-"455 661 CURVE SMOOTH",
-"518 661 OFFCURVE",
+"460 661 CURVE SMOOTH",
+"532 661 OFFCURVE",
 "555 569 OFFCURVE",
 "555 460 CURVE SMOOTH",
 "555 117 LINE SMOOTH",
@@ -17782,11 +17782,11 @@ nodes = (
 "742 813 OFFCURVE",
 "703 696 OFFCURVE",
 "684 666 CURVE",
-"729 597 LINE",
-"759 642 OFFCURVE",
-"779 651 OFFCURVE",
-"815 651 CURVE SMOOTH",
-"878 651 OFFCURVE",
+"739 597 LINE",
+"749 632 OFFCURVE",
+"780 651 OFFCURVE",
+"821 651 CURVE SMOOTH",
+"888 651 OFFCURVE",
 "915 569 OFFCURVE",
 "915 460 CURVE SMOOTH",
 "915 117 LINE SMOOTH",
