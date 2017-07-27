@@ -5,7 +5,7 @@ DisplayStrings = (
 "s&S\012CG\012\0121az23456790% Quota ",
 "/colonsign \U00A4/dong/naira/peso/won/perthousand",
 "a \U00E6 e o \U00F0 /dz  e /schwa  /ij  i /lj  /eng  n /nj  /oe  p \U00FE d \U00DF ",
-"BEFUCGS\012MQnbdpqcfgrrtcas\012klmx\0122347 @&,?\012"
+"BEFUCGSrra\012MQnbdpqcfgtcs\012klmx\0122347 @&,?\012"
 );
 classes = (
 {
@@ -11752,7 +11752,7 @@ unicode = 017B;
 },
 {
 glyphname = a;
-lastChange = "2017-07-16 20:52:09 +0000";
+lastChange = "2017-07-27 03:26:38 +0000";
 layers = (
 {
 anchors = (
@@ -11899,11 +11899,11 @@ nodes = (
 "313 474 CURVE SMOOTH",
 "366 474 OFFCURVE",
 "399 520 OFFCURVE",
-"401 630 CURVE",
-"428 643 OFFCURVE",
+"411 630 CURVE",
+"429 642 OFFCURVE",
 "484 657 OFFCURVE",
-"552 657 CURVE SMOOTH",
-"649 657 OFFCURVE",
+"542 657 CURVE SMOOTH",
+"639 657 OFFCURVE",
 "708 595 OFFCURVE",
 "708 489 CURVE",
 "440 463 OFFCURVE",
