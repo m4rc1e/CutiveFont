@@ -5,7 +5,7 @@ DisplayStrings = (
 "s&S\012CG\012\0121az23456790% Quota ",
 "/colonsign \U00A4/dong/naira/peso/won/perthousand",
 "a \U00E6 e o \U00F0 /dz  e /schwa  /ij  i /lj  /eng  n /nj  /oe  p \U00FE d \U00DF ",
-"BEFUCGSQMrafgstcnbdpq klmx\012@,?& 7\012234"
+"BEFUCGSQMrafgstcnbdpq klmx\012@,?& 47\01223"
 );
 classes = (
 {
@@ -25498,7 +25498,7 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2017-07-21 21:30:34 +0000";
+lastChange = "2017-07-28 16:21:54 +0000";
 layers = (
 {
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -25585,7 +25585,7 @@ nodes = (
 "221 908 CURVE SMOOTH",
 "217 803 OFFCURVE",
 "273 759 OFFCURVE",
-"355 759 CURVE SMOOTH",
+"345 759 CURVE SMOOTH",
 "423 759 OFFCURVE",
 "443 839 OFFCURVE",
 "443 972 CURVE",
@@ -25615,7 +25615,7 @@ unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2017-07-24 02:51:50 +0000";
+lastChange = "2017-07-28 16:21:59 +0000";
 layers = (
 {
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -25706,7 +25706,7 @@ nodes = (
 "223 833 OFFCURVE",
 "270 778 OFFCURVE",
 "341 778 CURVE SMOOTH",
-"409 778 OFFCURVE",
+"429 778 OFFCURVE",
 "432 858 OFFCURVE",
 "437 995 CURVE",
 "465 1011 OFFCURVE",
