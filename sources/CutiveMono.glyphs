@@ -18998,7 +18998,7 @@ unicode = 011D;
 },
 {
 glyphname = gcommaaccent;
-lastChange = "2017-07-30 21:07:40 +0000";
+lastChange = "2017-08-10 18:36:03 +0000";
 layers = (
 {
 components = (
@@ -19006,9 +19006,8 @@ components = (
 name = g;
 },
 {
-alignment = 1;
-name = caroncomb.alt;
-transform = "{1, 0, 0, 1, -3, 116}";
+name = commaturnedabovecomb;
+transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
 layerId = "840BD324-B0A6-42B0-BD23-CB5E8C19394F";
@@ -19020,8 +19019,8 @@ components = (
 name = g;
 },
 {
-name = caroncomb.alt;
-transform = "{1, 0, 0, 1, -22, 181}";
+name = commaturnedabovecomb;
+transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 layerId = "F2E12B84-E402-48AA-89E7-06534AE23493";
