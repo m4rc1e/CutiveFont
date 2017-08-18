@@ -3,7 +3,7 @@
 DisplayStrings = (
 "A \U00C6 D /DZ  /Dz  I /IJ  /LJ  /Lj  /Eng  O /OE  \U00DE",
 "a \U00E6 e o \U00F0 /dz  e /schwa  /ij  i /lj  /eng  n /nj  /oe  p \U00FE d \U00DF ",
-"aobdgpqkhnmsjilrftcezxvwuy   ADHEFJUGSILTNMBCQOKYPR VWXZ\012HHPHH OOPOO\012nnvnn oovoo\012nonononono \012nnxnn ooxoo\012nnrnn ooroo",
+"aobdgpqkhnmsjilrftcezxvwuy   ADHEFJUGSILTNMBCQOKYPRX VWZ\012HHPHH OOPOO\012nnvnn oovoo\012nonononono \012nnxnn ooxoo\012nnrnn ooroo",
 "r/florin f"
 );
 classes = (
@@ -15209,7 +15209,7 @@ unicode = 1EF8;
 },
 {
 glyphname = Z;
-lastChange = "2017-08-17 19:04:06 +0000";
+lastChange = "2017-08-18 16:30:39 +0000";
 layers = (
 {
 anchors = (
@@ -15335,6 +15335,53 @@ width = 1240;
 },
 {
 layerId = "440824D2-40E3-4EBC-B94D-DAF81B1E7F5E";
+paths = (
+{
+closed = 1;
+nodes = (
+"920 0 LINE SMOOTH",
+"949 0 OFFCURVE",
+"972 19 OFFCURVE",
+"980 53 CURVE SMOOTH",
+"1058 385 LINE",
+"1064 420 OFFCURVE",
+"1047 435 OFFCURVE",
+"1026 435 CURVE SMOOTH",
+"1003 435 OFFCURVE",
+"973 416 OFFCURVE",
+"966 384 CURVE",
+"884 86 LINE",
+"274 86 LINE",
+"1157 1081 LINE SMOOTH",
+"1166 1092 OFFCURVE",
+"1173 1112 OFFCURVE",
+"1173 1124 CURVE SMOOTH",
+"1173 1152 OFFCURVE",
+"1165 1171 OFFCURVE",
+"1133 1171 CURVE SMOOTH",
+"421 1171 LINE SMOOTH",
+"370 1171 OFFCURVE",
+"350 1144 OFFCURVE",
+"344 1116 CURVE",
+"270 806 LINE SMOOTH",
+"262 774 OFFCURVE",
+"286 757 OFFCURVE",
+"311 757 CURVE SMOOTH",
+"333 757 OFFCURVE",
+"354 770 OFFCURVE",
+"362 797 CURVE SMOOTH",
+"447 1085 LINE",
+"1053 1085 LINE",
+"159 100 LINE SMOOTH",
+"147 86 OFFCURVE",
+"120 58 OFFCURVE",
+"120 36 CURVE SMOOTH",
+"120 14 OFFCURVE",
+"128 0 OFFCURVE",
+"167 0 CURVE SMOOTH"
+);
+}
+);
 width = 1240;
 }
 );
